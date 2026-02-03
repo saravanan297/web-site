@@ -1,0 +1,93 @@
+.sn {
+    font-size: 30px;
+    /* display: inline; */
+    animation: pavin 5s infinite 2s;
+    transition: all 1s ease-in;
+
+}
+
+@keyframes pavin {
+    0% {
+        transform: rotate(90deg);
+        background: #d20c0c;
+        top: 30px;
+        left: 40px;
+    }
+
+    25% {
+        transform: rotate(120deg);
+        background: red;
+        top: 30px;
+        left: 40px;
+    }
+
+    50% {
+        transform: rotate(220deg);
+        background-color: red;
+        top: 30px;
+        left: 40px;
+    }
+
+    100% {
+        transform: rotate(260deg);
+        background-color: red;
+        top: 30px;
+        left: 40px;
+    }
+
+
+}
+
+h1 {
+    display: inline;
+    font-size: 30px;
+    position: relative;
+    border: solid 3px red;
+
+}
+
+img {
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#max {
+    max-width: 500px;
+}
+
+.left {
+    display: inline-block;
+}
+
+.rgt {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button {
+    font-weight: bold;
+    color: rgb(5, 154, 213);
+    border: white;
+    background-color: white;
+    margin-left: 20px;
+}
+
+.btn {
+    margin-left: 670px;
+}
+
+h6 {
+    color: rgb(5, 140, 230);
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
